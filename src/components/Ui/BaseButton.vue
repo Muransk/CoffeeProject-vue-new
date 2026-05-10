@@ -1,56 +1,56 @@
 <template>
-  <component
-    :is="tag"
-    v-bind="attrs"
-    @click="onClick"
-    :class="buttonClass ? buttonClass : 'btn'"
-  >
-    <slot />
-  </component>
+    <component :is="tag" 
+    v-bind="attrs" 
+    @click="onClick" 
+    :class="buttonClass ? buttonClass : 'btn'">
+        <slot />
+    </component>
 </template>
 
 <script>
 export default {
-  props: {
-    href: String,
-    to: [String, Object],
-    buttonClass: String
-  },
-
-  computed: {
-    tag() {
-      if (this.to) return 'router-link'
-      if (this.href) return 'a'
-      return 'button'
+    props: {
+        href: String,
+        to: [String, Object],
+        buttonClass: String
     },
 
-    attrs() {
-      if (this.tag === 'a') {
-        return { href: this.href }
-      }
+    computed: {
+        tag() {
+            if (this.to) return 'router-link'
+            if (this.href) return 'a'
+            return 'button'
+        },
 
-      if (this.tag === 'button') {
-        return { type: 'button' }
-      }
+        attrs() {
+            if (this.tag === 'a') {
+                return { href: this.href }
+            }
 
-      if (this.tag === 'router-link') {
-        return { to: this.to }
-      }
+            if (this.tag === 'button') {
+                return { type: 'button' }
+            }
 
-      return {}
+            if (this.tag === 'router-link') {
+                return { to: this.to }
+            }
+
+            return {}
+        }
+    },
+
+    methods: {
+        onClick(e) {
+            this.$emit('click', e)
+        }
     }
-  },
-
-  methods: {
-    onClick(e) {
-      this.$emit('click', e)
-    }
-  }
 }
 </script>
 
 <style scoped>
-
+a.btn {
+    color: inherit;
+}
 .btn {
     display: inline-flex;
     min-width: 134px;

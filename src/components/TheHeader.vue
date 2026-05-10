@@ -11,7 +11,7 @@
 
             <div class="auth-actions" aria-label="Account actions">
                 <a class="sign-in" href="#signin">Sign In</a>
-                <BaseButton class="sign-up" href="#signup">Sign Up</BaseButton>
+                <BaseButton href="#signup">Sign Up</BaseButton>
             </div>
 
         </nav>
@@ -36,6 +36,11 @@ export default {
 
 }
 
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
 ul {
     list-style: none;
 }
@@ -58,7 +63,8 @@ ul {
     margin-top: 3px;
 }
 
-.logo,.auth-actions {
+.logo,
+.auth-actions {
     margin-left: 93px;
     margin-right: 93px;
 }

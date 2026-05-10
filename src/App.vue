@@ -1,12 +1,9 @@
 <script setup>
-import Hero from './components/Hero.vue';
-import TheHeader from './components/TheHeader.vue';
-
+import HomePage from '@/components/HomePage.vue';
 </script>
 
 <template>
-  <TheHeader />
-  <Hero />
+<HomePage/>
 </template>
 
 <style></style>
