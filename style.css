@@ -1,0 +1,51 @@
+@font-face {
+  font-family: "Clicker Script";
+  src: url("src/assets/fonts/ClickerScript-Regular.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  src: url("src/assets/fonts/PlayfairDisplay-VariableFont_wght.ttf")
+    format("truetype");
+  font-display: swap;
+}
+
+:root {
+  --color-brown: #603809;
+  --color-dark: #1e1e1e;
+  --color-muted: #707070;
+  --color-light: #fff9f1;
+  --color-soft: #ffeed8;
+  --color-accent: #f9c06a;
+  --color-white: #ffffff;
+
+  --shadow: 0 18px 45px rgba(96, 56, 9, 0.14);
+
+  --radius: 24px;
+  --container: 1180px;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+
+body {
+  color: var(--color-dark);
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: larger;
+}
+
+#app {
+  position: relative;
+  min-height: 100vh;
+}
