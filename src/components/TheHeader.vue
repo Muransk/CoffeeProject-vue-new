@@ -33,12 +33,32 @@ export default {
     font-size: clamp(34px, 4vw, 54px);
     line-height: 1;
     white-space: nowrap;
-
+    margin: 0 0 24px;
 }
 
 a {
+    position: relative;
+    display: inline-block;
     color: inherit;
     text-decoration: none;
+}
+
+.nav-list a::after,
+.sign-in::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    width: 0;
+    height: 2px;
+    border-radius: 999px;
+    background-color: var(--color-accent);
+    transition: width 0.2s ease;
+}
+
+.nav-list a:hover::after,
+.sign-in:hover::after {
+    width: 100%;
 }
 
 ul {
@@ -57,10 +77,11 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    white-space: nowrap;
 }
 
 .header {
-    margin-top: 3px;
+    padding-top: 8px;
 }
 
 .logo,

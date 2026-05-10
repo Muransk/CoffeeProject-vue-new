@@ -48,10 +48,8 @@ export default {
 </script>
 
 <style scoped>
-a.btn {
-    color: inherit;
-}
 .btn {
+    text-decoration: none;
     display: inline-flex;
     min-width: 134px;
     min-height: 48px;
