@@ -1,9 +1,11 @@
 <script setup>
 import HomePage from '@/components/HomePage.vue';
+import MainSection from './components/MainSection.vue';
 </script>
 
 <template>
-<HomePage/>
+  <HomePage />
+  <MainSection />
 </template>
 
 <style></style>
