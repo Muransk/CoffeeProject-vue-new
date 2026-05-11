@@ -1,18 +1,18 @@
 <script>
-import TheHeader from '@/components/TheHeader.vue';
-import Hero from '@/components/Hero.vue';
+import Header from '@/components/Header.vue';
+import HeroSection from '@/components/HeroSection.vue';
 export default {
     components: {
-        TheHeader,
-        Hero
+        Header,
+        HeroSection
     }
 }
 
 </script>
 <template>
     <div class="home-page">
-        <TheHeader />
-        <Hero />
+        <Header />
+        <HeroSection />
     </div>
 </template>
 

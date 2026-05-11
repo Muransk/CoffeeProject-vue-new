@@ -1,5 +1,5 @@
 <template>
-    <dev class="hero" aria-labelledby="hero-title">
+    <section class="hero" aria-labelledby="hero-title">
         <p class="eyebrow">We’ve got your morning covered with</p>
         <h1 id="hero-title">Coffee</h1>
         <p class="hero-text">
@@ -7,11 +7,11 @@
             We provide the best for our customers.
         </p>
         <BaseButton href="#menu">Order now</BaseButton>
-    </dev>
+    </section>
 </template>
 
 <script>
-import BaseButton from '@/components/Ui/BaseButton.vue';
+import BaseButton from '@/components/ui/BaseButton.vue';
 
 export default {
     components: {

@@ -1,5 +1,5 @@
 <template>
-    <header class="header">
+    <section class="header">
         <nav class="navbar" aria-label="Main navigation">
             <div class="logo">Bean Scene</div>
             <ul class="nav-list">
@@ -15,11 +15,11 @@
             </div>
 
         </nav>
-    </header>
+    </section>
 </template>
 
 <script>
-import BaseButton from '@/components/Ui/BaseButton.vue';
+import BaseButton from '@/components/ui/BaseButton.vue';
 export default {
     components: {
         BaseButton
@@ -86,7 +86,6 @@ ul {
 
 .logo,
 .auth-actions {
-    margin-left: 93px;
-    margin-right: 93px;
+    margin-inline: 93px;
 }
 </style>
