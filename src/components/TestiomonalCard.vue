@@ -14,9 +14,9 @@
 
     <img class="kotik" src="@/assets/images/eba.png" alt="kotik">
 
-    <div class="strel">
-            <BaseButton class="strelka1"><b><</b></BaseButton>
-            <BaseButton class="strelka2"><b>></b></BaseButton>
+    <div class="strel"> 
+        <BaseButton class="strelka1"><b>^^</b></BaseButton>
+            <BaseButton class="strelka2"><b>:3</b></BaseButton>
     </div>
 </div>
 </section>
