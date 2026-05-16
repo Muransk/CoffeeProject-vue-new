@@ -45,6 +45,7 @@ export default {
     text-align: center;
     width: min(var(--container), calc(100% - 48px));
     margin-inline: auto;
+    margin-top: 100px;
 }
 
 .section-heading h2 {
@@ -65,7 +66,12 @@ export default {
     min-height: 284px;
     padding: 36px 24px;
     text-align: center;
+    border: 3px solid rgba(0, 0, 0, 0.18);
+    border-radius: 16px;
+    box-sizing: border-box;
+    background-color: #fff;
 }
+
 
 .card-grid {
     grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -77,6 +83,7 @@ export default {
     width: min(var(--container), calc(100% - 48px));
     margin-inline: auto;
 }
+
 
 .cta-small {
     display: grid;

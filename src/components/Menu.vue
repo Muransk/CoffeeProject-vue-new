@@ -38,6 +38,18 @@ export default {
 </script>
 
 <style scoped>
+
+.menu-card {
+  border: 3px solid  #ffd08a;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #fff;
+  display: block;
+  width: 100%;
+  height: auto;
+
+}
+
 .explore {
     font-size: 20px;
     font-family: Playfair Display;
@@ -77,6 +89,6 @@ export default {
     display: grid;
     justify-items: center;
     gap: 8px;
-    padding: 14px 18px 22px;
+    padding: 14px 18px 24px;
 }
 </style>
