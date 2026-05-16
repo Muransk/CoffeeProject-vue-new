@@ -1,5 +1,5 @@
 <template>
-<section class="subscribe" aria-labelledby="subscribe-title" id="Subscribe"  >    
+<section class="subscribe" aria-labelledby="subscribe-title" id="subscribe"  >    
     <div class="textik">
                     <div class="news">Subscribe to get the Latest News</div>
                     <img class="wing1" src="@/assets/images/pngwing1.png" alt="chashka1">

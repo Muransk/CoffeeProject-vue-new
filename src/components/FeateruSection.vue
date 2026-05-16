@@ -17,7 +17,7 @@
         <div class="cta-small">
             <p>Great ideas start with great coffee. Let’s help you achieve that.</p>
             <strong>Get started today.</strong>
-            <BaseButton href="#subscribe">Join Us</BaseButton>
+            <BaseButton class="otstup" href="#subscribe">Join Us</BaseButton>
         </div>
     </section>
 </template>
@@ -97,5 +97,8 @@ export default {
     color: var(--color-muted);
     font-size: 20px;
     line-height: 1.7;
+}
+.otstup{
+    margin-bottom: 50px;
 }
 </style>
