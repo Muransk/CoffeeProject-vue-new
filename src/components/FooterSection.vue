@@ -19,7 +19,7 @@
                     <div class="textlast">Company</div>
                     <div class="elements">
                         <div class="how">How we work</div>
-                        <div class="tearms">Tearms&service</div>
+                        <div class="tearms">Tearms&пservice</div>
                         <div class="pricing">Pricing</div>
                         <div class="faq">FAQ</div>
                     </div>

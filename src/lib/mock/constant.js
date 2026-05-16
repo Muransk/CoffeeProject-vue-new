@@ -73,4 +73,6 @@ export const featureCards = [
     alt: "Best price icon",
     featured: false,
   },
+
 ];
+

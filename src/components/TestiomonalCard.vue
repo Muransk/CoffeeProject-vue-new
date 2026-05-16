@@ -1,19 +1,13 @@
 <template>
 <section class="Testiomonal-card" id="Testiomonal" aria-labelledby="testimonial-title">
-    
-
 <div>
-
     <div class="chto">“</div>
-
     <div class="lorem">
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset.....
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset.....
     </div>
-
     <div class="names">
         Jonny Thomas
     </div>
-
     <div class="manager">
         Project Manager
     </div>
@@ -21,13 +15,9 @@
     <img class="kotik" src="@/assets/images/eba.png" alt="kotik">
 
     <div class="strel">
-
-      
-            <BaseButton class="strelka1">←</BaseButton>
-            <BaseButton class="strelka2">→</BaseButton>
-        
+            <BaseButton class="strelka1"><b><</b></BaseButton>
+            <BaseButton class="strelka2"><b>></b></BaseButton>
     </div>
-
 </div>
 </section>
 </template>
@@ -49,6 +39,8 @@ export default {
     background-color: #FFF9F1;
     border: 1px solid #f9c06a69;
     margin: 45px auto;
+     box-shadow: 0 10px 12px rgba(0, 0, 0, 0.15);
+
 }
 
 .chto {
@@ -110,23 +102,25 @@ export default {
 }
 
 .strelka1 {
-    min-width: 82px ;
-    min-height: 82px ;
+    min-width: 60px ;
+    min-height: 60px ;
     position: relative;
     right: 41px;
     border-radius: 8px;
     background-color: #F9C06A;
     align-self: flex-start;
+    box-shadow: 0 10px 12px rgba(0, 0, 0, 0.15);
 }
 
 .strelka2 {
-    min-width: 82px;
-    min-height: 82px;
+    min-width: 60px;
+    min-height: 60px;
     position: relative;
     left: 41px;
     border-radius: 8px;
     background-color: #F9C06A;
     align-self: flex-end;
+    box-shadow: 0 10px 12px rgba(0, 0, 0, 0.15);
 }
 
 .str {

@@ -1,5 +1,5 @@
 <template>
-    <section class="header">
+    <section id="home" class="header">
         <nav class="navbar" aria-label="Main navigation">
             <div class="logo">Bean Scene</div>
             <ul class="nav-list">
@@ -87,5 +87,28 @@ ul {
 .logo,
 .auth-actions {
     margin-inline: 93px;
+}
+
+
+
+.nav-list {
+  position: fixed;
+  top: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 999;
+  background-color: rgba(0, 0, 0, 0.92); /* или #333 */
+  padding: 10px 24px;
+  border-radius: 999px;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-list a {
+  color: white;
+}
+
+.nav-list a::after {
+  background-color: #F9C06A;
 }
 </style>

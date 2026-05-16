@@ -62,7 +62,7 @@ export default {
     width: 642px;
     height: 66px;
     border: 1px solid #f9c06a74;
-    border-radius: 4px;
+    border-radius: 7px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -90,7 +90,7 @@ input:focus {
 }
 
 .quat{
-    border-radius: 4px;
+    border-radius: 20px;
 }
 
 </style>
